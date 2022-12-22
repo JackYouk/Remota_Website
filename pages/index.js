@@ -148,7 +148,7 @@ function Index6() {
                                 <p className="text-body-lead-large color-gray-600 mt-30">Employee onboarding and offboarding. Tech asset refurbishments and secure decomissioning. Office IT asset logistics.</p>
                                 <div className="row mt-20">
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                                        <h4 className="text-heading-6 icon-leaf">Manage your company's global workforce with ease</h4>
+                                        <h4 className="text-heading-6 icon-leaf">Manage your company&apos;s global workforce with ease</h4>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
                                         <h4 className="text-heading-6 icon-leaf">Full life-cycle operation with refurbishment and secure decom</h4>
