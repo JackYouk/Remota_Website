@@ -13,14 +13,15 @@ const Footer = () => {
                                 <Link href="/" legacyBehavior>
                                     <a>
                                         {/* <img alt="Agon" src="/assets/imgs/template/logo.svg" /> */}
-                                        <Image src="/assets/imgs/template/logo.svg" alt="Agon" width={162} height={42}/>
+                                        {/* <Image src="/assets/imgs/template/logo.svg" alt="Agon" width={162} height={42}/> */}
+                                        <h4>Remota</h4>
                                     </a>
                                 </Link>
                             </div>
                             <div className="col-md-8 col-sm-6 text-center text-md-end">
-                                <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">Ready to get started?</span>
+                                <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">Have a question?</span>
                                 <Link href="/page-signup" legacyBehavior>
-                                    <a className="btn btn-square">Create an Account</a>
+                                    <a className="btn btn-square">Contact us</a>
                                 </Link>
                             </div>
                         </div>
@@ -28,9 +29,9 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">Contact</h4>
-                            <div className="mt-20 text-body-text color-gray-600 mb-20">4517 Washington Ave. Manchester, Kentucky 39495</div>
-                            <div className="mt-20 text-body-text color-gray-600">(239) 555-0108</div>
-                            <div className="text-body-text color-gray-600">contact@agon.com</div>
+                            <div className="mt-20 text-body-text color-gray-600 mb-20">4062 Watts St.<br />Emeryville, CA 94608</div>
+                            <a href="tel:+15109038999"><div className="mt-20 text-body-text color-gray-600">(510) 903 8999</div></a>
+                            <a href="mailto:support@northbay-networks.com"><div className="text-body-text color-gray-600">support@northbay-networks.com</div></a>
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">About Us</h4>
@@ -171,13 +172,13 @@ const Footer = () => {
                     <div className="footer-bottom mt-20">
                         <div className="row">
                             <div className="col-md-6">
-                                <span className="color-gray-400 text-body-lead">© Agon Official 2022</span>
+                                <span className="color-gray-400 text-body-lead">© Remota 2022</span>
                                 <Link href="/page-terms" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
                                 </Link>
-                                <Link href="/page-terms" legacyBehavior>
+                                {/* <Link href="/page-terms" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Cookies</a>
-                                </Link>
+                                </Link> */}
                                 <Link href="/page-terms" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
                                 </Link>

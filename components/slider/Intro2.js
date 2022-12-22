@@ -17,7 +17,7 @@ const Intro2 = () => {
                         spaceBetween={30}
                         loop={true}
                         autoplay={{
-                            delay: 2500,
+                            delay: 5000,
                             disableOnInteraction: false
                         }}
                         navigation={{
@@ -28,6 +28,32 @@ const Intro2 = () => {
                     >
                         <SwiperSlide>
                             <div className="row">
+                                
+                                <div className="col-12 swiper-slide-2">
+                                    <div className="grid-category grid-category-style-2">
+                                        <div className="grid-image-left-category">
+                                            <Link href="#" legacyBehavior>
+                                                <a>
+                                                    <div className="category-image">
+                                                        <span className="for-office"></span>
+                                                    </div>
+                                                    <div className="category-info">
+                                                        <h3 className="text-heading-6 mt-15">Services</h3>
+                                                        <p className="text-body-lead-large color-gray-500 mt-10">Learn about our services & solutions</p>
+                                                        <span className="icon-arrow-right-thin"></span>
+                                                    </div>
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="grid-image-bottom">
+                                            <Link href="#" legacyBehavior>
+                                                <a>
+                                                    <img src="/assets/imgs/page/homepage6/img-4.png" />
+                                                </a>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="col-12 swiper-slide-1">
                                     <div className="grid-category grid-category-style-2">
                                         <div className="grid-image-left-category">
@@ -37,7 +63,7 @@ const Intro2 = () => {
                                                         <span className="for-design"></span>
                                                     </div>
                                                     <div className="category-info">
-                                                        <h3 className="text-heading-6">Computer for Designer, Art</h3>
+                                                        <h3 className="text-heading-6">Onboarding & Offboarding</h3>
                                                     </div>
                                                 </a>
                                             </Link>
@@ -60,7 +86,58 @@ const Intro2 = () => {
                                                         <span className="for-software"></span>
                                                     </div>
                                                     <div className="category-info">
-                                                        <h3 className="text-heading-6">Computer for Designer, Art</h3>
+                                                        <h3 className="text-heading-6">Refurbishment and Decomission</h3>
+                                                    </div>
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="grid-image-bottom">
+                                            <Link href="#" legacyBehavior>
+                                                <a>
+                                                    <img src="/assets/imgs/page/homepage6/img-3.png" />
+                                                </a>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="row">
+                                <div className="col-12 swiper-slide-1">
+                                    <div className="grid-category grid-category-style-2">
+                                        <div className="grid-image-left-category">
+                                            <Link href="#" legacyBehavior>
+                                                <a>
+                                                    <div className="category-image">
+                                                        <span className="for-design"></span>
+                                                    </div>
+                                                    <div className="category-info">
+                                                        <h3 className="text-heading-6">Our Team</h3>
+                                                    </div>
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="grid-image-bottom">
+                                            <Link href="#" legacyBehavior>
+                                                <a>
+                                                    <img src="/assets/imgs/page/homepage6/img-2.png" />
+                                                </a>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12 swiper-slide-1">
+                                    <div className="grid-category grid-category-style-2">
+                                        <div className="grid-image-left-category">
+                                            <Link href="#" legacyBehavior>
+                                                <a>
+                                                    <div className="category-image">
+                                                        <span className="for-software"></span>
+                                                    </div>
+                                                    <div className="category-info">
+                                                        <h3 className="text-heading-6">Global solutions in 50+ countries</h3>
                                                     </div>
                                                 </a>
                                             </Link>
@@ -83,8 +160,8 @@ const Intro2 = () => {
                                                         <span className="for-office"></span>
                                                     </div>
                                                     <div className="category-info">
-                                                        <h3 className="text-heading-6 mt-15">Computer for Designer, Art</h3>
-                                                        <p className="text-body-lead-large color-gray-500 mt-10">Real-time display of data</p>
+                                                        <h3 className="text-heading-6 mt-15">E-cycle</h3>
+                                                        <p className="text-body-lead-large color-gray-500 mt-10">Our commitment to fighting climate change</p>
                                                         <span className="icon-arrow-right-thin"></span>
                                                     </div>
                                                 </a>

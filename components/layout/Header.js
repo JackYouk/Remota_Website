@@ -28,9 +28,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <ul className="main-menu">
-                                        <li className="has-children">
-                                            <Link href="#" legacyBehavior><a>About Us</a></Link>
-                                            <ul className="sub-menu">
+                                        <li className="no-children">
+                                            <Link href="/about" legacyBehavior><a>About Us</a></Link>
+                                            {/* <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-about-1" legacyBehavior><a><i className="fi fi-rr-star" />About Us - 1</a></Link>
                                                 </li>
@@ -40,7 +40,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 <li>
                                                     <Link href="/page-about-3" legacyBehavior><a><i className="fi fi-rr-star" />About Us - 3</a></Link>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li className="has-children">
                                             <Link href="#" legacyBehavior><a>Services</a></Link>
@@ -94,9 +94,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className="has-children">
-                                            <Link href="#" legacyBehavior><a>Blog</a></Link>
-                                            <ul className="sub-menu">
+                                        <li className="no-children">
+                                            <Link href="/blog" legacyBehavior><a>Blog</a></Link>
+                                            {/* <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/blog-1" legacyBehavior><a className="closer"><i className="fi fi-rr-edit" />Blog Archive - 1</a></Link>
                                                 </li>
@@ -107,7 +107,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 <li>
                                                     <Link href="/blog-single" legacyBehavior><a><i className="fi fi-rr-document-signed" />Blog Single</a></Link>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         {/* <li className="has-children">
                                             <a href="#">Shop</a>
@@ -126,7 +126,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                         </div>
                         <div className="header-right">
                             <div className="block-signin">
-                                <Link href="/page-signup" legacyBehavior><a className="btn btn-default hover-up icon-arrow-right">Get Started</a></Link>
+                                <Link href="/contact" legacyBehavior><a className="btn btn-default hover-up icon-arrow-right">Contact Us</a></Link>
                             </div>
                         </div>
                     </div>
