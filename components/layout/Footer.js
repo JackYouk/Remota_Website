@@ -20,7 +20,7 @@ const Footer = () => {
                             </div>
                             <div className="col-md-8 col-sm-6 text-center text-md-end">
                                 <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">Have a question?</span>
-                                <Link href="/page-signup" legacyBehavior>
+                                <Link href="/contact" legacyBehavior>
                                     <a className="btn btn-square">Contact us</a>
                                 </Link>
                             </div>

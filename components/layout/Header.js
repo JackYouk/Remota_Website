@@ -30,17 +30,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                                     <ul className="main-menu">
                                         <li className="no-children">
                                             <Link href="/about" legacyBehavior><a>About Us</a></Link>
-                                            {/* <ul className="sub-menu">
-                                                <li>
-                                                    <Link href="/page-about-1" legacyBehavior><a><i className="fi fi-rr-star" />About Us - 1</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/page-about-2" legacyBehavior><a><i className="fi fi-rr-star" />About Us - 2</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/page-about-3" legacyBehavior><a><i className="fi fi-rr-star" />About Us - 3</a></Link>
-                                                </li>
-                                            </ul> */}
                                         </li>
                                         <li className="has-children">
                                             <Link href="#" legacyBehavior><a>Services</a></Link>
@@ -75,48 +64,43 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#" legacyBehavior><a>Our Team</a></Link>
+                                            <Link href="#" legacyBehavior><a>Sales</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
-                                                    <Link href="/page-contact" legacyBehavior><a><i className="fi fi-rr-paper-plane" />Contact</a></Link>
+                                                    <Link href="/page-service-1" legacyBehavior><a className="closer"><i className="fi fi-rr-gem" />Services - 1</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-signup" legacyBehavior><a><i className="fi fi-rr-user-add" />Sign Up</a></Link>
+                                                    <Link href="/page-service-2" legacyBehavior><a className="closer"><i className="fi fi-rr-gem" />Services - 2</a></Link>
+                                                </li>
+                                                <li className="hr"><span /></li>
+                                                <li>
+                                                    <Link href="/page-pricing-1" legacyBehavior><a className="closer"><i className="fi fi-rr-database" />Pricing - 1</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-login" legacyBehavior><a><i className="fi fi-rr-fingerprint" />Log In</a></Link>
+                                                    <Link href="/page-pricing-2" legacyBehavior><a className="closer"><i className="fi fi-rr-database" />Pricing - 2</a></Link>
+                                                </li>
+                                                <li className="hr"><span /></li>
+                                                <li>
+                                                    <Link href="/page-faqs-1" legacyBehavior><a className="closer"><i className="fi fi-rr-headset" />FAQs - 1</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-reset" legacyBehavior><a><i className="fi fi-rr-settings" />Reset Password</a></Link>
+                                                    <Link href="/page-faqs-2" legacyBehavior><a className="closer"><i className="fi fi-rr-headset" />FAQs - 2</a></Link>
+                                                </li>
+                                                <li className="hr"><span /></li>
+                                                <li>
+                                                    <Link href="/page-career" legacyBehavior><a className="closer"><i className="fi fi-rr-briefcase" />Career</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/404" legacyBehavior><a><i className="fi fi-rr-exclamation" />Error 404</a></Link>
+                                                    <Link href="/page-career-detail" legacyBehavior><a className="closer"><i className="fi fi-rr-briefcase" />Career Detail</a></Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="no-children">
-                                            <Link href="/blog" legacyBehavior><a>Blog</a></Link>
-                                            {/* <ul className="sub-menu">
-                                                <li>
-                                                    <Link href="/blog-1" legacyBehavior><a className="closer"><i className="fi fi-rr-edit" />Blog Archive - 1</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blog-2" legacyBehavior><a className="closer"><i className="fi fi-rr-edit" />Blog Archive - 2</a></Link>
-                                                </li>
-                                                <li className="hr"><span /></li>
-                                                <li>
-                                                    <Link href="/blog-single" legacyBehavior><a><i className="fi fi-rr-document-signed" />Blog Single</a></Link>
-                                                </li>
-                                            </ul> */}
+                                            <Link href="/team" legacyBehavior><a>Our Team</a></Link>
                                         </li>
-                                        {/* <li className="has-children">
-                                            <a href="#">Shop</a>
-                                            <ul className="sub-menu">
-                                                <li><Link href="/page-shop-grid-1" legacyBehavior><a className="closer"><i className="fi fi-rr-edit"></i>Shop Grid - 1</a></Link></li>
-                                                <li><Link href="/page-shop-grid-2" legacyBehavior><a className="closer"><i className="fi fi-rr-edit"></i>Shop Grid - 2</a></Link></li>
-                                                <li><Link href="/shop/1" legacyBehavior><a className="closer"><i className="fi fi-rr-edit"></i>Product Details</a></Link></li>
-                                            </ul>
-                                        </li> */}
+                                        <li className="no-children">
+                                            <Link href="/blog" legacyBehavior><a>Blog</a></Link>
+                                        </li>
                                     </ul>
                                 </nav>
                                 {/* <div className="burger-icon burger-icon-white" onClick={handleOpen}>

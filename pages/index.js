@@ -5,6 +5,26 @@ import { useState } from "react";
 import Intro2 from "../components/slider/Intro2";
 
 function Index6() {
+    const [contactForm, setContactForm] = useState({
+        name: '',
+        company: '',
+        email: '',
+        phone: '',
+        message: '',
+    });
+    const handleContactFormChange = (event) => {
+        const key = event.target.name;
+        const value = event.target.value;
+
+        setContactForm({
+            ...contactForm,
+            [key]: value,
+        });
+    }
+    const submitContactForm = (event) => {
+        event.preventDefault();
+        // email.js submit here
+    }
     // Open modal
     const [modal, setModal] = useState(false);
     const [videoLoading, setVideoLoading] = useState(true);
@@ -182,21 +202,21 @@ function Index6() {
                                 <div className="col-lg-8">
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control" value="" placeholder="Name" /></div>
+                                            <div className="form-group"><input className="form-control" value={contactForm.name} onChange={handleContactFormChange} name='name' placeholder="Name" /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control" value="" placeholder="Company (optional)" /></div>
+                                            <div className="form-group"><input className="form-control" value={contactForm.company} onChange={handleContactFormChange} name='company' placeholder="Company (optional)" /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control" value="" placeholder="Email" /></div>
+                                            <div className="form-group"><input className="form-control" value={contactForm.email} onChange={handleContactFormChange} name='email' placeholder="Email" /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control" value="" placeholder="Phone number" /></div>
+                                            <div className="form-group"><input className="form-control" value={contactForm.phone} onChange={handleContactFormChange} name='phone' placeholder="Phone number" /></div>
                                         </div>
                                         <div className="col-lg-12">
-                                            <div className="form-group"><textarea className="form-control" placeholder="Message"></textarea></div>
+                                            <div className="form-group"><textarea className="form-control" value={contactForm.message} onChange={handleContactFormChange} name='message' placeholder="Message"></textarea></div>
                                         </div>
-                                        <div className="col-lg-12 mt-15"><button className="btn btn-black icon-arrow-right-white mr-40 mb-20" type="submit">Send Message</button><br className="d-lg-none d-block" /></div>
+                                        <div className="col-lg-12 mt-15"><button className="btn btn-black icon-arrow-right-white mr-40 mb-20" onClick={submitContactForm}>Send</button><br className="d-lg-none d-block" /></div>
                                     </div>
                                 </div>
                             </div>
