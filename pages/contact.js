@@ -39,7 +39,7 @@ function Contact() {
                             <div className="row">
                                 <div className="col-lg-12 mb-60"><span className="text-body-capitalized text-uppercase">Contact us</span>
                                     <h2 className="text-heading-3 color-gray-900 mt-10">Questions?</h2>
-                                    <p className="text-body-text color-gray-600 mt-20">Ask the experts.<br className="d-lg-block d-none" />We're here to help.</p>
+                                    <p className="text-body-text color-gray-600 mt-20">Ask the experts.<br className="d-lg-block d-none" />We&lsquo;re here to help.</p>
                                 </div>
                                 <div className="col-lg-4 mb-40">
                                     <h4 className="text-heading-6 color-gray-900 icon-home mb-10 mt-10">Remota HQ</h4>
