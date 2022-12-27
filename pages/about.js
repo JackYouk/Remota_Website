@@ -24,8 +24,8 @@ function About3() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12 text-center">
-                                    <h1 className="text-display-2 color-gray-900">Our Story</h1>
-                                    <p className="text-heading-4 color-gray-600 mt-40">We supply enterprises, organizations and institutes of high-<br className="d-lg-block d-none" />tech industries with modern components. We build long-<br className="d-lg-block d-none" />term trusting relationships with our customers and partnes<br className="d-lg-block d-none" />for further fruitful cooperations.</p>
+                                    <h1 className="text-display-2 color-gray-900">About Us</h1>
+                                    <p className="text-heading-4 color-gray-600 mt-40"> Northbay Networks has decades of experience in IT logistics and asset management. Learn how Northbay Network's solution to Covid-19's remote work transition birthed the industries #1 end-user asset management service, now rebranding as Remota.</p>
                                 </div>
                             </div>
                         </div>
@@ -50,13 +50,13 @@ function About3() {
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
                             <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900 mb-10">Providing solutions of every kind</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">In a professional context it often happens that private or<br className="d-lg-block d-none" />corporate clients order a publication to publish news.</p>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Silicon Valley's #1 provider of powerful and flexible IT logistics solutions</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">We are experts in handling the complicated IT logistics of the remote worker enviroment, on a global scale. Our infrastructure fuels the IT needs for hundreds of thousands remote workers world wide.</p>
                             </div>
                             <div className="col-lg-1 col-sm-1 col-12" />
                         </div>
                     </div>
-                    <div className="container mt-40">
+                    {/* <div className="container mt-40">
                         <div className="row">
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons mt-50">
@@ -83,16 +83,16 @@ function About3() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
                 <section className="section-box pt-100 pb-100 mt-100 bg-6">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-5 mb-30"><span className="tag-1 color-gray-900">Built Exclusively For You</span>
-                                <h3 className="text-heading-1 mt-30">Don’t take our word for it. See what our clients say.</h3>
+                            <div className="col-lg-5 mb-30"><span className="tag-1 color-gray-900">Testimonials</span>
+                                <h3 className="text-heading-1 mt-30">Don’t take our word for it, here it directly from our clients.</h3>
                                 <p className="text-body-lead-large color-gray-600 mt-30">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
                                 <div className="mt-40">
-                                    <Link href="/page-service-2" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn More</a></Link>
+                                    <Link href="/page-service-2" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Contact Us</a></Link>
                                 </div>
                             </div>
                             <div className="col-lg-7">
@@ -229,8 +229,8 @@ function About3() {
                     <div className="container mt-30">
                         <div className="row">
                             <div className="col-lg-8">
-                                <h3 className="text-heading-1 mb-10">From Our Blog</h3>
-                                <p className="text-body-lead-large color-gray-600">From Our blog and Event fanpage</p>
+                                <h3 className="text-heading-1 mb-10">Learn more about Remota</h3>
+                                <p className="text-body-lead-large color-gray-600">And also keep up with our team by reading our blog</p>
                             </div>
                             <div className="col-lg-4 text-lg-end text-start pt-30">
                                 <Link href="/blog-2" legacyBehavior><a className="btn btn-black icon-arrow-right-white">View More</a></Link>
@@ -263,30 +263,6 @@ function About3() {
 
                                     <div className="grid-4-img color-bg-4">
                                         <Link href="/blog-single" legacyBehavior><a><img src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" /></a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="section-box overflow-visible mb-100">
-                    <div className="container mt-100">
-                        <div className="row">
-                            <div className="col-lg-10 mx-auto">
-                                <div className="bg-2 box-newsletter position-relative">
-                                    <div className="row">
-                                        <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
-                                            <h4 className="text-heading-2 mb-10 mt-10">Subscribe our newsletter</h4>
-                                            <p className="text-body-text color-gray-500">By clicking the button, you are agreeing with our</p>
-                                            <Link href="/page-terms" legacyBehavior><a>Term and Conditions</a></Link>
-
-                                            <div className="box-form-newsletter mt-30">
-                                                <form className="form-newsletter"><input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <div className="block-chart shape-1"><img src="/assets/imgs/template/chart.png" alt="Agon" /></div><img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" />
-                                        </div>
                                     </div>
                                 </div>
                             </div>
