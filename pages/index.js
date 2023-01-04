@@ -79,7 +79,7 @@ function Index6() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 pr-mb-70 mb-30">
                                         <h3 className="text-display-3"><span className="count">20</span>+</h3><span className="text-body-quote">Industry Leading Clients</span>
-                                        <p className="text-body-text">We are the #1 most trusted asset management in the Bay Area and Silicon Valley</p>
+                                        <p className="text-body-text">We are the #1 most trusted asset management company in the Bay Area and Silicon Valley</p>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 pr-mb-70 mb-30">
                                         <h3 className="text-display-3"><span className="count">100</span>k+</h3><span className="text-body-quote">Assets in Circulation</span>
@@ -265,8 +265,8 @@ function Index6() {
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Company Events</span>
-                                    <Link href="#" legacyBehavior><a className="text-heading-4">2022 Northbay Networks Holiday Dinner</a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot">Holidays</span>
+                                    <Link href="#" legacyBehavior><a className="text-heading-4">Happy Holidays! -Remota Team</a></Link>
 
                                     <div className="grid-4-img">
                                         <Link href="#" legacyBehavior><a><img src="/assets/imgs/page/homepage1/img-news-4.png" alt="Agon" /></a></Link>

@@ -63,9 +63,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 </li>
                                             </ul> */}
                                         </li>
-                                        <li className="no-children">
+                                        {/* <li className="no-children">
                                             <Link href="/sales" legacyBehavior><a>Sales</a></Link>
-                                            {/* <ul className="sub-menu">
+                                            <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-service-1" legacyBehavior><a className="closer"><i className="fi fi-rr-gem" />Services - 1</a></Link>
                                                 </li>
@@ -93,8 +93,8 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 <li>
                                                     <Link href="/page-career-detail" legacyBehavior><a className="closer"><i className="fi fi-rr-briefcase" />Career Detail</a></Link>
                                                 </li>
-                                            </ul> */}
-                                        </li>
+                                            </ul>
+                                        </li> */}
                                         <li className="no-children">
                                             <Link href="/team" legacyBehavior><a>Our Team</a></Link>
                                         </li>

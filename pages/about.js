@@ -25,7 +25,7 @@ function About3() {
                             <div className="row">
                                 <div className="col-lg-12 text-center">
                                     <h1 className="text-display-2 color-gray-900">About Us</h1>
-                                    <p className="text-heading-4 color-gray-600 mt-40"> Northbay Networks has decades of experience in IT logistics and asset management. Learn how Northbay Network's solution to Covid-19's remote work transition birthed the industries #1 end-user asset management service, now rebranding as Remota.</p>
+                                    <p className="text-heading-4 color-gray-600 mt-40">Learn how Northbay Network's solution to Covid-19's remote work transition birthed the industries #1 end-user asset management service, now rebranding as Remota.</p>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ function About3() {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5 mb-30"><span className="tag-1 color-gray-900">Testimonials</span>
-                                <h3 className="text-heading-1 mt-30">Don’t take our word for it, here it directly from our clients.</h3>
+                                <h3 className="text-heading-1 mt-30">Don’t take our word for it, hear it directly from our clients.</h3>
                                 <p className="text-body-lead-large color-gray-600 mt-30">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
                                 <div className="mt-40">
                                     <Link href="/page-service-2" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Contact Us</a></Link>
@@ -142,7 +142,7 @@ function About3() {
                         </div>
                     </div>
                 </section>
-                <section className="section-box">
+                {/* <section className="section-box">
                     <div className="container mt-120">
                         <div className="row">
                             <div className="col-lg-6 col-sm-12 block-img-we-do"><img className="bdrd-16 img-responsive" src="assets/imgs/page/about/3/img-2.png" alt="Agon" /></div>
@@ -171,7 +171,7 @@ function About3() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <div className="section-box mt-100">
                     <div className="container">
                         <div className="bd-bottom pb-70">
@@ -195,7 +195,7 @@ function About3() {
                         </div>
                     </div>
                 </div>
-                <section className="section-box mt-90 mb-mobile mb-150">
+                {/* <section className="section-box mt-90 mb-mobile mb-150">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-2 col-sm-1 col-12" />
@@ -224,51 +224,52 @@ function About3() {
                             </div>
                         </div>
                     </div>
-                </section>
-                <section className="section-box">
-                    <div className="container mt-30">
+                </section> */}
+                <div className="section-box">
+                    <div className="container mt-100">
                         <div className="row">
                             <div className="col-lg-8">
-                                <h3 className="text-heading-1 mb-10">Learn more about Remota</h3>
-                                <p className="text-body-lead-large color-gray-600">And also keep up with our team by reading our blog</p>
+                                <h3 className="text-heading-1 mb-10">Stay up to date with Remota</h3>
+                                <p className="text-body-lead-large color-gray-600">Take a look at our blog to see what our team has been up to!</p>
                             </div>
                             <div className="col-lg-4 text-lg-end text-start pt-30">
-                                <Link href="/blog-2" legacyBehavior><a className="btn btn-black icon-arrow-right-white">View More</a></Link>
+                                <Link href="/blog" legacyBehavior><a className="btn btn-black icon-arrow-right-white">View More</a></Link>
                             </div>
                         </div>
                     </div>
                     <div className="container mt-90">
                         <div className="row">
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Company</span>
-                                    <Link href="/blog-single" legacyBehavior><a className="text-heading-4">We can blend colors multiple ways, the most common</a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot">Our Values</span>
+                                    <Link href="#" legacyBehavior><a className="text-heading-4">Our commitment to eco-friendly solutions and electronic recycling</a></Link>
 
                                     <div className="grid-4-img">
-                                        <Link href="/blog-single" legacyBehavior><a><img src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" /></a></Link>
+                                        <Link href="#" legacyBehavior><a><img src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" /></a></Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Marketing Event</span>
-                                    <Link href="/blog-single" legacyBehavior><a className="text-heading-4">How To Blow Through Capital At An Incredible Rate</a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot">Quarterly Report</span>
+                                    <Link href="#" legacyBehavior><a className="text-heading-4">How we handled techs biggest offboard cycle of the decade</a></Link>
 
                                     <div className="grid-4-img">
-                                        <Link href="/blog-single" legacyBehavior><a><img src="/assets/imgs/page/homepage1/img-news-2.png" alt="Agon" /></a></Link>
+                                        <Link href="#" legacyBehavior><a><img src="/assets/imgs/page/homepage1/img-news-2.png" alt="Agon" /></a></Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Customer Services</span>
-                                    <Link href="/blog-single" legacyBehavior><a className="text-heading-4">Design Studios That Everyone Should Know About?</a></Link>
+                                <div className="card-grid-style-4"><span className="tag-dot">Employee Stories</span>
+                                    <Link href="#" legacyBehavior><a className="text-heading-4">Meet Jack: the amazingnest Remota employee that also designed this website</a></Link>
 
                                     <div className="grid-4-img color-bg-4">
-                                        <Link href="/blog-single" legacyBehavior><a><img src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" /></a></Link>
+                                        <Link href="#" legacyBehavior><a><img src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" /></a></Link>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
-                </section>
+                </div>
                 {modal ? (
                     <section className="modal__bg" onClick={openModal}>
                         <div className="modal__align">
