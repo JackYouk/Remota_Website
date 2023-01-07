@@ -25,7 +25,7 @@ TABLE CONTENT
  WP STYPE
  Custom amine
 ***/
-@import url(https://fonts.bunny.net/css?family=chivo:400,700|noto-sans:400,700);
+@import url(https://fonts.bunny.net/css?family=remotafont:400,700|noto-sans:400,700);
 @import url(../css/vendors/normalize.css);
 @import url(../css/vendors/bootstrap.min.css);
 @import url(../css/vendors/uicons-regular-rounded.css);
@@ -36,8 +36,8 @@ TABLE CONTENT
 @import url(../css/vendors/animate.min.css);
 @import url(../css/vendors/slick.css);
 @font-face {
-  font-family: "uicons-regular-rounded";
-  src: url("../fonts/uicons/uicons-regular-rounded.eot#iefix") format("embedded-opentype"), url("../fonts/uicons/uicons-regular-rounded.woff2") format("woff2"), url("../fonts/uicons/uicons-regular-rounded.woff") format("woff");
+  font-family: "remotafont";
+  src: url('../fonts/uicons/remotafont.otf') format('opentype');
 }
 /*import vendors*/ /*RESET*/
 html,
@@ -125,7 +125,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font: "remotafont";
   vertical-align: baseline;
 }
 
@@ -191,7 +191,7 @@ input,
 select,
 button,
 textarea {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-size: 14px;
 }
 
@@ -368,42 +368,42 @@ a {
 }
 
 .text-body-lead {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
 }
 
 .text-body-excerpt {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
 }
 
 .text-body-text {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400 !important;
   font-size: 16px;
   line-height: 28px;
 }
 
 .text-body-quote {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
 }
 
 .text-body-normal {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
 
 .text-body-capitalized {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -411,35 +411,35 @@ a {
 }
 
 .text-body-small {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
 }
 
 .text-body-tiny {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 600;
   font-size: 10px;
   line-height: 14px;
 }
 
 .text-body-lead-large {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
 }
 
 .text-body-text-md {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
 }
 
 .tablet-display-2 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 72px;
   line-height: 82px;
@@ -447,7 +447,7 @@ a {
 }
 
 .text-display-1 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 900;
   font-size: 96px;
   line-height: 132px;
@@ -455,7 +455,7 @@ a {
 }
 
 .text-display-2 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 80px;
   line-height: 88px;
@@ -463,7 +463,7 @@ a {
 }
 
 .text-display-3 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 64px;
   line-height: 72px;
@@ -471,7 +471,7 @@ a {
 }
 
 .text-display-4 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   font-size: 56px;
   line-height: 66px;
@@ -479,7 +479,7 @@ a {
 }
 
 .text-heading-1 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 56px;
   line-height: 64px;
@@ -488,7 +488,7 @@ a {
 }
 
 .text-heading-2 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 42px;
   line-height: 44px;
@@ -496,7 +496,7 @@ a {
 }
 
 .text-heading-3 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 35px;
   line-height: 38px;
@@ -504,7 +504,7 @@ a {
 }
 
 .text-heading-4 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 28px;
   line-height: 32px;
@@ -512,7 +512,7 @@ a {
 }
 
 .text-heading-5 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 22px;
   line-height: 24px;
@@ -520,7 +520,7 @@ a {
 }
 
 .text-heading-6 {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
@@ -528,7 +528,7 @@ a {
 }
 
 .text-bold {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-size: 14px;
   line-height: 14px;
   font-weight: bold;
@@ -652,7 +652,7 @@ a {
 
 .text-billed {
   font-weight: 400;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-size: 16px;
   line-height: 28px;
   display: inline-block;
@@ -685,7 +685,7 @@ a:hover {
 .content-detail p {
   margin-bottom: 15px;
   font-size: 16px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   color: #101828;
   line-height: 28px;
 }
@@ -694,7 +694,7 @@ a:hover {
   color: #101828;
   padding-left: 20px;
   font-size: 16px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   line-height: 28px;
 }
 
@@ -836,7 +836,7 @@ h4 {
 /*TYPOGRAPHY*/
 body {
   color: #101828;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
@@ -854,7 +854,7 @@ h6,
 .display-2,
 .heading-lg,
 .heading-sm-1 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   color: #101828;
   font-weight: 700;
   line-height: 1.2;
@@ -903,7 +903,7 @@ h6 {
   line-height: 24px;
   color: #101828;
   font-weight: 500;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 
 .heading-sm {
@@ -915,20 +915,20 @@ h6 {
 .text-sm {
   font-size: 12px;
   line-height: 16px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 
 .text-md {
   font-size: 16px;
   line-height: 20px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 
 .small-heading {
   font-size: 16px;
   line-height: 20px;
   font-weight: bold;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 
 .medium-heading {
@@ -936,7 +936,7 @@ h6 {
   color: #101828;
   line-height: 22px;
   font-weight: 600;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 
 .display-block {
@@ -1000,7 +1000,7 @@ h6 {
 }
 
 .btn {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   padding: 22px 32px;
   font-size: 18px;
   line-height: 22px;
@@ -1044,7 +1044,7 @@ h6 {
   border-radius: 50px;
   font-size: 18px;
   line-height: 22px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
 }
 .btn.btn-default:hover {
@@ -1079,7 +1079,7 @@ h6 {
 }
 .btn.btn-green-900 {
   background-color: #006D77;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
@@ -1100,7 +1100,7 @@ h6 {
   border-radius: 50px;
   font-size: 18px;
   line-height: 22px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
 }
 .btn.btn-black.icon-arrow-right-white:hover {
@@ -1122,7 +1122,7 @@ h6 {
   border-radius: 4px;
 }
 .btn.btn-link {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 18px;
@@ -1141,7 +1141,7 @@ h6 {
   background-color: #101828;
 }
 .btn.btn-link-inter {
-  font-family: "Chivo", sans-serif !important;
+  font-family: "remotafont", sans-serif !important;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -1193,7 +1193,7 @@ h6 {
 .btn.btn-tag {
   background-color: #E4E7EC;
   color: #101828;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -1211,7 +1211,7 @@ h6 {
   border-radius: 8px;
   padding: 16px 56px 16px 27px;
   border: 0px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
@@ -1240,7 +1240,7 @@ h6 {
   background-image: url(../imgs/page/homepage5/icon-plus.svg);
   background-repeat: no-repeat;
   background-position: center right 10px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -1256,7 +1256,7 @@ h6 {
   background-image: url(../imgs/page/homepage8/icon-arrow-green.svg);
   background-repeat: no-repeat;
   background-position: center right 12px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -1302,7 +1302,7 @@ h6 {
   background-repeat: no-repeat;
   background-position: center left;
   padding-left: 30px;
-  font-family: "Chivo", sans-serif !important;
+  font-family: "remotafont", sans-serif !important;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -1651,7 +1651,7 @@ label {
   color: #98A2B3;
   font-size: 20px;
   line-height: 27px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   min-height: 150px;
 }
@@ -2280,7 +2280,7 @@ label {
 .block-pricing .box-info-price .text-price {
   font-size: 36px;
   color: #101828;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   line-height: 46px;
   font-weight: 600;
   margin-right: 15px;
@@ -2388,7 +2388,7 @@ label {
   font-size: 16px;
   line-height: 28px;
   color: #ffffff;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   background: url(../imgs/template/icons/icon-untick.svg) no-repeat right 15px top 1px;
 }
@@ -2546,7 +2546,7 @@ label {
   font-size: 12px;
   line-height: 16px;
   color: #006D77;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
@@ -2596,13 +2596,13 @@ label {
 .product-item-1 .product-info .title-product {
   color: #101828;
   font-size: 26px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   line-height: 32px;
   margin-bottom: 10px;
 }
 .product-item-1 .product-info .price-regular {
   font-size: 28px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   line-height: 34px;
   color: #101828;
 }
@@ -2706,7 +2706,7 @@ label {
 }
 .product-item-2 .product-info .box-prices .price-regular {
   font-size: 22px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   line-height: 24px;
   font-weight: bold;
   color: #006D77;
@@ -2755,7 +2755,7 @@ label {
   font-size: 12px;
   line-height: 16px;
   color: #667085;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
@@ -2786,7 +2786,7 @@ label {
   border-radius: 8px;
   background: transparent;
   border: 0px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 500;
   transition-duration: 0.2s;
 }
@@ -2820,28 +2820,28 @@ label {
   padding: 15px;
   border: 0px;
   min-height: 50px;
-  font-family: "Noto Sans";
+  font-family: "remotafont";
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #98A2B3;
 }
 .box-newsletter .box-form-newsletter form .input-newsletter::-moz-placeholder {
-  font-family: "Noto Sans";
+  font-family: "remotafont";
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #98A2B3;
 }
 .box-newsletter .box-form-newsletter form .input-newsletter::placeholder {
-  font-family: "Noto Sans";
+  font-family: "remotafont";
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #98A2B3;
 }
 .box-newsletter .box-form-newsletter form .font-heading {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 500;
 }
 .box-newsletter .btn-send {
@@ -3487,7 +3487,7 @@ label {
   margin: 5px 0;
 }
 .header .main-menu li a {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -3559,7 +3559,7 @@ label {
   width: 100%;
 }
 .header .text-link-bd-btom {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -3661,7 +3661,7 @@ label {
   padding: 10px 0px;
 }
 .header-top span {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
@@ -3840,7 +3840,7 @@ label {
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li a {
   font-size: 16px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   line-height: 1;
   text-transform: capitalize;
   font-weight: 500;
@@ -4212,7 +4212,7 @@ label {
 }
 .footer .menu-footer li a {
   color: #667085;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-size: 16px;
   line-height: 28px;
   text-decoration: none;
@@ -5906,14 +5906,14 @@ label {
   color: #E29578;
   font-size: 14px;
   line-height: 14px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   display: inline-block;
 }
 
 .tag-dot {
   font-size: 12px;
   line-height: 16px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   color: #667085;
   background: url(../imgs/template/icons/dot.svg) no-repeat left center;
   display: block;
@@ -6033,7 +6033,7 @@ label {
 }
 
 .bg-green-900 {
-  background-color: #eaa339;
+  background-color: #f60;
   color: #ffffff;
 }
 
@@ -6324,7 +6324,7 @@ label {
   font-size: 28px;
   line-height: 32px;
   color: #98A2B3;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
 }
 
@@ -6372,7 +6372,7 @@ label {
 }
 
 .text-semibold {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-size: 10px;
   line-height: 14px;
   color: #98A2B3;
@@ -6388,7 +6388,7 @@ label {
   margin: 0px;
 }
 .list-category li {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 500;
   display: inline-block;
   width: 100%;
@@ -6442,7 +6442,7 @@ label {
 .box-green .text-desc-white {
   font-size: 18px;
   line-height: 32px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   color: #ffffff;
 }
 
@@ -6596,7 +6596,7 @@ label {
 }
 
 .box-slider-3 {
-  background-color: #eaa339;
+  background-color: #f60;
 }
 
 .pdl-md {
@@ -6977,7 +6977,7 @@ label {
 }
 
 .text-inter-lg {
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -7052,7 +7052,7 @@ label {
   font-size: 16px;
   line-height: 28px;
   color: #101828;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   text-align: center;
 }
@@ -7313,7 +7313,7 @@ label {
 
 .text-summary {
   font-weight: bold;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-size: 18px;
   line-height: 32px;
   color: #667085;
@@ -7322,7 +7322,7 @@ label {
 .single-detail p {
   margin-bottom: 15px;
   font-size: 18px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   color: #667085;
   line-height: 32px;
   font-weight: 400;
@@ -7392,7 +7392,7 @@ label {
   padding: 75px 0px 0px 0px;
   font-size: 32px;
   line-height: 48px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: 400;
   text-align: center;
 }
@@ -7553,7 +7553,7 @@ label {
   padding: 10px 8px;
   margin: 0px 5px;
   font-weight: 700;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   color: #667085;
   line-height: 30px;
   text-decoration: none;
@@ -7624,7 +7624,7 @@ label {
 }
 
 .text-heading-7 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
@@ -7729,7 +7729,7 @@ label {
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   color: #006D77;
 }
 .btn-filter:hover {
@@ -7762,14 +7762,14 @@ label {
   font-size: 39px;
   line-height: 42px;
   font-weight: bold;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   color: #006D77;
 }
 .banner-ads .desc-ads {
   font-size: 16px;
   line-height: 20px;
   color: #667085;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 .banner-ads .box-banner-ads {
   display: table;
@@ -7930,7 +7930,7 @@ label {
   line-height: 16px;
   color: #667085;
   font-weight: bold;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 
 .box-price {
@@ -7943,7 +7943,7 @@ label {
   line-height: 38px;
   font-weight: bold;
   color: #004B52;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   margin-right: 15px;
 }
 .box-price .price-old {
@@ -7951,7 +7951,7 @@ label {
   font-weight: bold;
   font-size: 28px;
   line-height: 32px;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
   text-decoration: line-through;
   margin-right: 15px;
 }
@@ -7961,7 +7961,7 @@ label {
   line-height: 28px;
   color: #667085;
   font-weight: 400;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 
 .font-bold {
@@ -8190,7 +8190,7 @@ strong {
   line-height: 22px;
   color: #004B52;
   font-weight: bold;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 
 .process-bar-line {
@@ -8359,7 +8359,7 @@ input.qty-val {
   font-size: 22px;
   line-height: 24px;
   font-weight: bold;
-  font-family: "Chivo", sans-serif;
+  font-family: "remotafont", sans-serif;
 }
 
 .countdown-period {
@@ -8368,7 +8368,7 @@ input.qty-val {
   font-size: 10px;
   line-height: 14px;
   font-weight: 600;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "remotafont", sans-serif;
   margin-top: 4px;
 }
 

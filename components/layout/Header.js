@@ -19,9 +19,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                         <div className="header-left">
                             <div className="header-logo">
                                 <Link href="/" legacyBehavior>
-                                    <a className="d-flex">
-                                        {/* {headerStyle ? <img alt="Agon" src="/assets/imgs/template/logo-white.svg" /> : <img alt="Agon" src="/assets/imgs/template/logo.svg" />} */}
-                                        <h3>Remota</h3>
+                                    <a className="d-flex" >
+                                        {headerStyle ? <img alt="Remota"  src="/assets/imgs/template/logo-whitetext.png" /> : <img alt="Remota"  src="/assets/imgs/template/logo-blacktext.png" />}
+                                        {/* <h3>Remota</h3> */}
                                     </a>
                                 </Link>
                             </div>
