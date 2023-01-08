@@ -12,9 +12,7 @@ const Footer = () => {
                             <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/" legacyBehavior>
                                     <a>
-                                        {/* <img alt="Agon" src="/assets/imgs/template/logo.svg" /> */}
-                                        {/* <Image src="/assets/imgs/template/logo.svg" alt="Agon" width={162} height={42}/> */}
-                                        <h4>Remota</h4>
+                                        <img alt="Agon" src="/assets/imgs/template/logo-blacktext.png" />
                                     </a>
                                 </Link>
                             </div>
@@ -47,18 +45,8 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/page-career" legacyBehavior>
+                                    <Link href="/#" legacyBehavior>
                                         <a>Careers</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/#" legacyBehavior>
-                                        <a>Press and Media</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/#" legacyBehavior>
-                                        <a>Advertising</a>
                                     </Link>
                                 </li>
                                 <li>
@@ -72,12 +60,12 @@ const Footer = () => {
                             <h4 className="text-heading-5">Discover</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="/blog-2" legacyBehavior>
+                                    <Link href="/#" legacyBehavior>
                                         <a>Our Blog</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/page-pricing-1" legacyBehavior>
+                                    <Link href="/#" legacyBehavior>
                                         <a>Plans and Pricing</a>
                                     </Link>
                                 </li>
@@ -88,16 +76,6 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>Cookie Policy</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/#" legacyBehavior>
-                                        <a>Office Center</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/blog-1" legacyBehavior>
                                         <a>News and Events</a>
                                     </Link>
                                 </li>
@@ -107,33 +85,23 @@ const Footer = () => {
                             <h4 className="text-heading-5">Support</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="/page-faqs-1" legacyBehavior>
+                                    <Link href="/#" legacyBehavior>
                                         <a>FAQs</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>Editor Help</a>
+                                        <a>Customer Service</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>Community</a>
+                                        <a>Get A Quote</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#" legacyBehavior>
-                                        <a>Live Chatting</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/page-contact" legacyBehavior>
+                                    <Link href="/contact" legacyBehavior>
                                         <a>Contact Us</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/#" legacyBehavior>
-                                        <a>Support Center</a>
                                     </Link>
                                 </li>
                             </ul>
@@ -148,12 +116,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>How it works</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/page-pricing-2" legacyBehavior>
-                                        <a>Pricing</a>
+                                        <a>How we works</a>
                                     </Link>
                                 </li>
                                 <li>

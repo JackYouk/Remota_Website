@@ -3,6 +3,7 @@ import BackToTop from "../elements/BackToTop";
 import Footer from "./Footer";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
+import Head from 'next/head';
 
 const Layout = ({ children, headerStyle }) => {
     const [openClass, setOpenClass] = useState('');
@@ -20,6 +21,11 @@ const Layout = ({ children, headerStyle }) => {
     }
     return (
         <>
+            <Head>
+                <title>Remota</title>
+                <meta name="description" content="Remota website" />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <div  className={openClass && "body-overlay-1"} onClick={handleRemove} />
 
             <Header handleOpen={handleOpen} headerStyle={headerStyle} />
