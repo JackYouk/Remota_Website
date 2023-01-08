@@ -45,9 +45,9 @@ function Index6() {
                                     <h1 className="text-display-2 mt-20">Fast. Flexible. Global.</h1>
                                     <p className="text-body-lead-large color-gray-500 mt-30 pr-40">Seasoned IT professionals specializing in full life-cycle asset management and logistics.<br className="d-lg-block d-none" /></p>
                                     <div className="mt-40">
-                                        <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Get Started</a></Link>
+                                        <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Services</a></Link>
 
-                                        <Link href="#" legacyBehavior><a className="btn btn-link icon-triangle color-gray-900 ml-40">Intro</a></Link>
+                                        <Link href="#" legacyBehavior><a className="btn btn-link icon-triangle color-gray-900 ml-40">Intro Video</a></Link>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
@@ -223,7 +223,7 @@ function Index6() {
                         </div>
                     </div>
                 </div>
-                <div className="section-box">
+                {/* <div className="section-box">
                     <div className="container mt-100">
                         <div className="row">
                             <div className="col-lg-8">
@@ -293,7 +293,7 @@ function Index6() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {modal ? (
                     <section className="modal__bg" onClick={openModal}>

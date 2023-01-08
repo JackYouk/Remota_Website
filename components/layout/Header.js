@@ -98,9 +98,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                                         <li className="no-children">
                                             <Link href="/team" legacyBehavior><a>Our Team</a></Link>
                                         </li>
-                                        <li className="no-children">
+                                        {/* <li className="no-children">
                                             <Link href="/blog" legacyBehavior><a>Blog</a></Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </nav>
                                 {/* <div className="burger-icon burger-icon-white" onClick={handleOpen}>

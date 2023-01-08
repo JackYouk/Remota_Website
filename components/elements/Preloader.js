@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Preloader = () => {
     return (
         <>
@@ -7,8 +6,7 @@ const Preloader = () => {
                 <div className="preloader d-flex align-items-center justify-content-center">
                     <div className="preloader-inner position-relative">
                         <div className="text-center">
-                            <h1>Remota</h1>
-                            <div className="loader" />
+                            <img src='assets/imgs/template/logo-blacktext.png' alt='remota' />
                         </div>
                     </div>
                 </div>
