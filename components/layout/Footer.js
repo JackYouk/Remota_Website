@@ -12,7 +12,7 @@ const Footer = () => {
                             <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/" legacyBehavior>
                                     <a>
-                                        <img alt="Agon" src="/assets/imgs/template/logo-blacktext.png" />
+                                        <img alt="Remota" src="/assets/imgs/template/logo-blacktext_1_300x.png" />
                                     </a>
                                 </Link>
                             </div>

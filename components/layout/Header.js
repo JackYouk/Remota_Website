@@ -20,7 +20,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/" legacyBehavior>
                                     <a className="d-flex" >
-                                        {headerStyle ? <img alt="Remota"  src="/assets/imgs/template/logo-whitetext.png" /> : <img alt="Remota"  src="/assets/imgs/template/logo-blacktext.png" />}
+                                        <img alt="Remota"  src="/assets/imgs/template/logo-blacktext_1_300x.png" />
                                         {/* <h3>Remota</h3> */}
                                     </a>
                                 </Link>
